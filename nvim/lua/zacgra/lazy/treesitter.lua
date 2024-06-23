@@ -5,7 +5,6 @@ return {
     config = function()
         require('nvim-treesitter.configs').setup({
                 ensure_installed = {
-                    "arduino",
                     "bash",
                     "c_sharp",
                     "c",
@@ -13,13 +12,13 @@ return {
                     "csv",
                     "diff",
                     "dockerfile",
+                    "go",
                     "lua",
                     "javascript",
                     "json",
                     "html",
                     "markdown",
                     "python",
-                    "query",
                     "ruby",
                     "ssh_config",
                     "sql",
