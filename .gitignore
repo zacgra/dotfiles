@@ -1,0 +1,5 @@
+.claudebox
+.llmbox
+
+# tmux plugins (managed by TPM)
+config/tmux/plugins/
