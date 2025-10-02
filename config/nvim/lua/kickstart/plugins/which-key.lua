@@ -76,6 +76,7 @@ return {
         { '<leader>c', group = '[C]ode' },
         { '<leader>d', group = '[D]iagnostics' },
         { '<leader>g', group = '[G]it', mode = { 'n', 'v' } },
+        { '<leader>h', group = '[H]arpoon' },
         { '<leader>m', group = '[M]arkdown' },
         { '<leader>q', group = '[Q]uit/Session' },
         { '<leader>s', group = '[S]earch' },
