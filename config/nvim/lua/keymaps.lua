@@ -1,5 +1,24 @@
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
-vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostic [Q]uickfix list' })
+
+-- Diagnostics
+vim.keymap.set('n', '<leader>dq', vim.diagnostic.setloclist, { desc = '[D]iagnostic [Q]uickfix list' })
+
+-- Buffer operations
+vim.keymap.set('n', '<leader>bd', '<cmd>bd<cr>', { desc = '[B]uffer [D]elete' })
+vim.keymap.set('n', '<leader>bn', '<cmd>bnext<cr>', { desc = '[B]uffer [N]ext' })
+vim.keymap.set('n', '<leader>bp', '<cmd>bprevious<cr>', { desc = '[B]uffer [P]revious' })
+
+-- Window operations
+vim.keymap.set('n', '<leader>wv', '<cmd>vsplit<cr>', { desc = '[W]indow Split [V]ertical' })
+vim.keymap.set('n', '<leader>wh', '<cmd>split<cr>', { desc = '[W]indow Split [H]orizontal' })
+vim.keymap.set('n', '<leader>wc', '<cmd>close<cr>', { desc = '[W]indow [C]lose' })
+vim.keymap.set('n', '<leader>wo', '<cmd>only<cr>', { desc = '[W]indow [O]nly (close others)' })
+vim.keymap.set('n', '<leader>wr', '<cmd>resize<cr>', { desc = '[W]indow [R]esize' })
+
+-- Quit/Session
+vim.keymap.set('n', '<leader>qq', '<cmd>qa<cr>', { desc = '[Q]uit all' })
+vim.keymap.set('n', '<leader>qw', '<cmd>wqa<cr>', { desc = '[Q]uit all and [W]rite' })
+
 vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' })
 
 -- Window navigation

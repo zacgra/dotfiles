@@ -14,4 +14,5 @@
 | | `Ctrl-a + p` | Previous window |
 | | `Ctrl-a + 0-9` | Jump to window number |
 | | `Ctrl-a + Ctrl-j` | Session/window chooser |
+| | `Ctrl-a + ,` | Rename window |
 | **Other** | `Ctrl-a + r` | Reload tmux config |
